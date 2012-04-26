@@ -5,9 +5,12 @@ import sys
 import re
 import time
 
+#------------------------------------------------------------------------
 # Put here path to debug log that is currently written by skypekit runtime
 # you need run "skypekit -d logname" before edit this
+# also you can parse log by youself like "tail -F /some/folder/logname | grep -a noticing" and use client.py only for send username into socket
 PathToLog = "/some/folder/logname"
+
 
 if len(sys.argv) == 1:
         print('Usage: python skyip.py <skypename>')
