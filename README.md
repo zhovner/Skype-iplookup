@@ -1,4 +1,4 @@
-Skype-account-iplookup
+Skype-iplookup
 ======================
 
 Perform obscure ip lookup for online skype account.
