@@ -30,5 +30,5 @@ Be aware to login with your main account!
 3. Edit path to log file in client.py and try it.
 
 
-### For additional help go to skypeopensource@conference.jabber.ru
+### For additional help go to xmpp://skypeopensource@conference.jabber.ru
 
