@@ -16,10 +16,10 @@ magnet:?xt=urn:btih:3da068082f6ec70be379d4046e4c77bc4578f751&dn=SkypeKit_sdk%2Br
 
 This runtime also don't need certificate from Skype LTD to use it. You can made your own skype client/plugin and share sources without proprietary Skypekit. 
 
-1. Run Skypekit 
-    
-    ./skypekit-sdk_runtime-3.7.0/bin/linux-x86/RUNTIME_linux-x86-skypekit-voicertp-videortp_3.7.0 -x -m -d logname
+1. Run Skypekit
 
+    ./skypekit-sdk_runtime-3.7.0/bin/linux-x86/RUNTIME_linux-x86-skypekit-voicertp-videortp_3.7.0 -x -m -d logname
+	
 2. Put server.py in ./skypekit-sdk_runtime-3.7.0/examples/python/tutorial/ and run it
 
     python2.6.5 ./server.py username password
@@ -31,3 +31,4 @@ Be aware to login with your main account!
 
 
 ### For additional help go to skypeopensource@conference.jabber.ru
+
