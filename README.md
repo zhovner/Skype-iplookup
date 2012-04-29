@@ -28,20 +28,22 @@ You must setup this key in examples/python/tutorial/keypair.py
 	
 1. Run Skypekit and video loopback
 
-	./skypekit-sdk_runtime-3.7.0/reference/videortphost-loopback/build/videortphost-loopback
-    
-	./skypekit-sdk_runtime-3.7.0/bin/linux-x86/RUNTIME_linux-x86-skypekit-voicertp-videortp_3.7.0 -x -m -d logname
+    ./skypekit-sdk_runtime-3.7.0/reference/videortphost-loopback/build/videortphost-loopback
+    ./skypekit-sdk_runtime-3.7.0/bin/linux-x86/RUNTIME_linux-x86-skypekit-voicertp-videortp_3.7.0 -x -m -d logname
 
 2. Put server.py in ./skypekit-sdk_runtime-3.7.0/examples/python/tutorial/ and run it
 
     python2.6.5 ./server.py username password
 
-Be aware to login with your main account!
+  Be aware to login with your main account!
 
 
 3. Edit path to log file in client.py and try it.
 
 
+
+
+-------------
 Read more about Skypekit python api http://developer.skype.com/skypekit/reference/python/html/help.html
 
 For additional help go to xmpp:skypeopensource@conference.jabber.ru
