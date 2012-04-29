@@ -29,7 +29,8 @@ You must setup this key in examples/python/tutorial/keypair.py
 1. Run Skypekit and video loopback
 
     ./skypekit-sdk_runtime-3.7.0/reference/videortphost-loopback/build/videortphost-loopback
-    ./skypekit-sdk_runtime-3.7.0/bin/linux-x86/RUNTIME_linux-x86-skypekit-voicertp-videortp_3.7.0 -x -m -d logname
+    
+	./skypekit-sdk_runtime-3.7.0/bin/linux-x86/RUNTIME_linux-x86-skypekit-voicertp-videortp_3.7.0 -x -m -d logname
 
 2. Put server.py in ./skypekit-sdk_runtime-3.7.0/examples/python/tutorial/ and run it
 
