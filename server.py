@@ -20,7 +20,7 @@ import socket
 import os, os.path
 import time
 import keypair;
-from stat import S_IRWXU, S_IRGRP, S_IRWXO
+import stat
 from time import sleep;
 
 sys.path.append(keypair.distroRoot + '/ipc/python');
