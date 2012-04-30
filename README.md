@@ -14,7 +14,7 @@ First of all you need cracked Skypekit.
 
 magnet:?xt=urn:btih:3da068082f6ec70be379d4046e4c77bc4578f751&dn=SkypeKit_sdk%2Bruntimes_370_412.zip&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Ftracker.publicbt.com%3A80&tr=udp%3A%2F%2Ftracker.ccc.de%3A80
 
-This runtime also don't need certificate from Skype LTD to use it. You can made your own skype client/plugin and share sources without proprietary Skypekit. 
+This Skypekit also don't need request certificate from Skype Inc to use it. You can made your own skype client/plugin and share sources without proprietary Skypekit. 
 
 To run skypekit you need compile and run video loopback:  skypekit-sdk_runtime-3.7.0/reference/videortphost-loopback (require premake4 and g++-multilibs for compile)
 
